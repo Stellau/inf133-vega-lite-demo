@@ -23,6 +23,12 @@
         { filter: { field: "Origin", equal: "USA" } },
       ],
     };
+    /* your turn:
+     * This (https://vega.github.io/editor/data/seattle-weather.csv) is the data set on Seattle's daily weather for 4 years.
+     * Can you plot a histogram/bar chart that shows the aggregate count of days of different weather and grouped by the
+     * months in the year? (Use #plot3)
+     * For each bar (month), please show the number of days for each type of weather in a different color.
+    */
     vegaEmbed("#plot", schema, { actions: false });
     vegaEmbed("#plot2", schema2, { actions: false });
   }
